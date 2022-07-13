@@ -1,7 +1,7 @@
 .home{
     height: auto;
     min-height: 100vh;
-    background: black;
+    background: #212324;
     color: whitesmoke;
     width: 100%;
     // display: flex;
@@ -28,8 +28,8 @@
             font-size: 17px;
             border: 1px solid gray;
             padding: 5px;
-            color: black;
-            background: #f3b542;
+            background: #212832;
+            color: #f3b542;
             margin-left: 10px;
             border-radius: 5px;
             padding: 10px;
@@ -39,9 +39,7 @@
             transition: 0.5s;
 
             &:hover{
-                color: #f3b542;
                 border: 2px solid white;
-                background: black;
             }
 
             &:active{
@@ -69,7 +67,7 @@
             &:hover{
                 transform: scale(1.1);
                 border: 2px solid white;
-                box-shadow: 0px 0px 8px yellow;
+                box-shadow: 0px 0px 8px #f3b542;
             }
         }
         a{

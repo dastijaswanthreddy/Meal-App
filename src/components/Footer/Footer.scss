@@ -2,7 +2,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: black;
+    background: #212832;
     color: white;
     height: 17vh;
     border-top: 1px solid #ccc;
@@ -25,6 +25,7 @@
         transition: all 0.7s ease-in-out;
 
         &:hover{
+            border: 2px solid white;
             transform: scale(1.4) rotate(1turn);
         }
     }
@@ -32,7 +33,7 @@
         text-decoration: none;
     }
     i{
-        font-size: 23px;
+        font-size: 22px;
         width: 1em;
         height: 1em;
         color: #f3b542;

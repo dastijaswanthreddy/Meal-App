@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     height: auto;
     min-height: 75vh;
-    background: black;
+    background: #212324;
     color: whitesmoke;
     width: 100%;
     text-align: center;
@@ -22,7 +22,7 @@
          &:hover{
              transform: scale(1.1);
              border: 2px solid white;
-             box-shadow: 0px 0px 8px yellow;
+             box-shadow: 0px 0px 8px #f3b542;
          }
      }
      h4{
