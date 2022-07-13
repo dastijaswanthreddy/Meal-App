@@ -1,0 +1,74 @@
+.random{
+    width: 100%;
+    height: 120vh;
+    background: black;
+    color: whitesmoke;
+
+    img{
+        width: 250px;
+        border: 1px solid grey;
+        margin: 20px;
+        transition: all 0.6s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1);
+            border: 1px solid grey;
+            box-shadow: 0px 0px 4px yellow;
+            border-radius: 10px;
+        }
+    }
+    &-grid{
+        &-controls{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // margin-top: 20px;
+
+            button{
+                margin-top: 15px;
+                padding: 10px;
+                border: 2px solid grey;
+                outline: none;
+                background: black;
+                color: white;
+                font-size: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+
+                &:active{
+                    color: #f3b542;
+                }
+
+                &:hover{
+                    border:  2px solid #f3b542;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: #f3b542;
+                transition: all 0.8s ease-in-out;
+
+                &:hover{
+                    color: white;
+                }
+            }
+       }
+       &-instructions{
+            text-align: center;
+
+            p{
+                font-size: 18px;
+                text-indent: 50px;
+                text-align: justify;
+                letter-spacing: 1px;
+            }
+            h3{
+                margin: 10px 0;
+                color: #f3b542;
+            }
+       }
+    }
+    
+}

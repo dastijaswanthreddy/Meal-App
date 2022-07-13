@@ -1,0 +1,116 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
+    &-heading{
+        display: flex;
+        justify-content: center;
+        img{
+          margin-left: 20px;
+        }
+        h1{
+            margin-left: 10px;
+            margin-top: 5px;
+            font-size: 38px;
+
+            span{
+                color: #f3b542;
+            }
+        }
+    }
+    &-links{
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        a{
+            // color: white;
+            // text-decoration: none;
+            margin-right: 50px;
+            // padding: 10px;
+            // background: lighten($color: #000000, $amount: 15);
+            // border-radius: 5px;
+            // font-size: 20px;
+            // transition: all 0.8s ease;
+
+            // &:hover{
+            //     // color: #f3b542;
+            //     color: yellow;
+            //     font-size: 21px;
+            //     text-decoration: overline;
+            // }
+           
+            width: 150px;
+            height: 50px;
+            border: 1px solid #f3b542;
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            text-decoration: none;
+            color: whitesmoke;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 0;
+            transition: 1s;
+
+            &::before{
+                height: 50px;
+                width: 130px;
+                position: absolute;
+                background: black;
+                z-index: -1;
+                transition: 1s;
+                content: '';
+            }
+
+            &::after {
+              width: 150px;
+              height: 30px;
+              position: absolute;
+              background: black;
+              z-index: -1;
+              transition: 1s;
+              content: '';
+            }
+
+            &:hover {
+              background: lighten($color: #000000, $amount: 15);
+              color: #f3b542;
+              border: 1px solid white;
+              font-size: 21px;
+              text-decoration: overline;
+
+              &::before {
+                width: 0px;
+                // background: black;
+                // background: lighten($color: #000000, $amount: 15);
+              }
+
+              &::after {
+                height: 0px;
+                // background: black;
+                background: lighten($color: #000000, $amount: 15);
+              }
+            }
+        }
+    }
+}
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

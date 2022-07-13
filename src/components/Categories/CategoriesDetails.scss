@@ -1,0 +1,35 @@
+.category-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 75vh;
+    background: black;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    
+    img{
+         width: 230px;
+         border: 1.5px solid grey;
+         margin: 15px;
+         transition: all 0.7s ease-in-out;
+         border-radius: 10px;
+         cursor: pointer;
+
+         &:hover{
+             transform: scale(1.1);
+             border: 2px solid white;
+             box-shadow: 0px 0px 8px yellow;
+         }
+     }
+     h4{
+        cursor: pointer;
+        transition: all 0.7s ease-in-out;
+        &:hover{
+            color: #f3b542;
+        }
+     }
+}
