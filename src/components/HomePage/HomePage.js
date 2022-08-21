@@ -2,6 +2,7 @@ import AOS from 'aos';
 import React, {useState,useCallback,useContext} from 'react';
 import { myContext } from '../context/context';
 import './HomePage.scss';
+
 const HomePage = () => {
   const [searchTerm,setSearchTerm]=useState("");
   const {fetchHomePageMeals,meals}=useContext(myContext);
