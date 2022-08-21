@@ -19,7 +19,7 @@ const Footer = () => {
              <a href='https://github.com/dastijaswanthreddy' target="_blank" rel="noopener noreferrer" ><i className="fa-brands fa-github"></i></a>
           </div>
           <div className='footer-icons'>
-             <a href="https://www.instagram.com/itss__dj/" target="_blank" rel="noopener noreferrer" ><i className="fa-brands fa-instagram"></i></a>
+             <a href="https://www.instagram.com/dastijr/" target="_blank" rel="noopener noreferrer" ><i className="fa-brands fa-instagram"></i></a>
           </div>
        </div>
         <p style={{marginBottom :'7px'}}>Made With <img src='https://media.giphy.com/media/LpDmM2wSt6Hm5fKJVa/giphy.gif' alt='#' width='30px'/> By Jaswanth Reddy</p>
